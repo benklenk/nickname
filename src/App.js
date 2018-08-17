@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import Button from '@material-ui/core/Button'
 
-
 class App extends Component {
   constructor(props) {
     super(props);
@@ -34,7 +33,6 @@ class App extends Component {
 
   noSpaces(suffix) {
     let rhyme = this.pickRhyme()
-    console.table(rhyme)
     while (rhyme.score < 263 || rhyme.flags !== 'bc') {
       rhyme = this.pickRhyme()
     }
@@ -52,14 +50,12 @@ class App extends Component {
   }
 
   findRhyme(suffix) {
-    console.log(suffix)
-    let rhyme;
     fetch('http://rhymebrain.com/talk?function=getRhymes&word=' + suffix).then(rhymes => {
       return rhymes.json()
     }).then(json => {
       this.setState({rhymes: json})
       this.noSpaces(suffix)
-    }).catch(error => console.log('@@@@@@ ' + error))
+    }).catch(error => console.log('@@@@@@ ' + error));
     if (suffix === 'destin') {
       this.setState({displaySuffix: 'in'})
     } else if (suffix === 'testy') {
@@ -110,7 +106,7 @@ class App extends Component {
           display: 'flex',
           justifyContent: 'center'
         }}>
-        <Button disabled={this.state.loading} color='primary' onClick={this.onClick} mini='true' size='large' variant='contained'>{this.state.button}</Button>
+        <Button disabled={this.state.loading} color='primary' onClick={this.onClick} size='large' variant='contained'>{this.state.button}</Button>
       </div>
     </div>);
   }
