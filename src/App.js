@@ -50,7 +50,7 @@ class App extends Component {
   }
 
   findRhyme(suffix) {
-    fetch('http://rhymebrain.com/talk?function=getRhymes&word=' + suffix).then(rhymes => {
+    fetch('//rhymebrain.com/talk?function=getRhymes&word=' + suffix).then(rhymes => {
       return rhymes.json()
     }).then(json => {
       this.setState({rhymes: json})
