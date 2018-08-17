@@ -11,3 +11,7 @@ This app could be cloned to fit almost any name, and could be modularized to inp
 RhymeBrain's API can only be pinged 350 times per hour, so the scalability of this app beyond novelty isn't feasible.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Live App
+
+The app can be found hosted live [here](https://stark-coast-20016.herokuapp.com/)
