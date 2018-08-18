@@ -14,4 +14,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Live App
 
-The app can be found hosted live [here](https://stark-coast-20016.herokuapp.com/).
+The app can be found hosted live [here](http://destin-nicknames.herokuapp.com/).
