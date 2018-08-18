@@ -50,7 +50,7 @@ class App extends Component {
   }
 
   findRhyme(suffix) {
-    fetch('//rhymebrain.com/talk?function=getRhymes&word=' + suffix, {
+    fetch('http://rhymebrain.com/talk?function=getRhymes&word=' + suffix, {
       credentials: 'same-origin',
       mode: 'cors',
       headers: {
