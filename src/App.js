@@ -94,13 +94,13 @@ class App extends Component {
               display: 'inline',
               fontFamily: 'Roboto',
               fontWeight: 'normal',
-              fontSize: '9em'
+              fontSize: '8em'
             }
             : {
               display: 'inline',
               fontFamily: 'Roboto',
               fontWeight: 'normal',
-              fontSize: '9em'
+              fontSize: '8em'
             }}>Dest{this.state.displaySuffix} {this.state.rhyme}</h1>
         <br/>
       </div>
