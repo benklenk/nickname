@@ -108,7 +108,7 @@ class App extends Component {
           display: 'flex',
           justifyContent: 'center'
         }}>
-        <Button disabled={this.state.loading} color='primary' onClick={this.onClick} size='large' variant='contained'>{this.state.button}</Button>
+        <Button disabled={this.state.loading} color='inherit' onClick={this.onClick} size='large' variant='contained'>{this.state.button}</Button>
       </div>
     </div>);
   }
