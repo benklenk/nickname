@@ -82,7 +82,6 @@ class App extends Component {
   render() {
     return (<div>
       <div style={{
-          backgroundColor: 'lightGrey',
           height: '100%',
           display: 'flex',
           justifyContent: 'center',
@@ -95,13 +94,13 @@ class App extends Component {
               display: 'inline',
               fontFamily: 'Roboto',
               fontWeight: 'normal',
-              fontSize: '40px'
+              fontSize: '7em'
             }
             : {
               display: 'inline',
               fontFamily: 'Roboto',
               fontWeight: 'normal',
-              fontSize: '40px'
+              fontSize: '7em'
             }}>Dest{this.state.displaySuffix} {this.state.rhyme}</h1>
         <br/>
       </div>
