@@ -10,7 +10,7 @@
 html, body {
   height: 100%;
   margin: 0;
-  background-image: linear-gradient(white, skyBlue);
+  background-image: linear-gradient(white, lightBlue);
 }
 
 #wrapper {
