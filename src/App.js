@@ -85,7 +85,8 @@ class App extends Component {
           backgroundColor: 'lightGrey',
           height: '100%',
           display: 'flex',
-          justifyContent: 'center'
+          justifyContent: 'center',
+          alignItems: 'center'
         }} className="App"><br/>
         <h1 className="Butter" style={this.state.loading
             ? {
@@ -94,13 +95,13 @@ class App extends Component {
               display: 'inline',
               fontFamily: 'Roboto',
               fontWeight: 'normal',
-              fontSize: '50px'
+              fontSize: '40px'
             }
             : {
               display: 'inline',
               fontFamily: 'Roboto',
               fontWeight: 'normal',
-              fontSize: '50px'
+              fontSize: '40px'
             }}>Dest{this.state.displaySuffix} {this.state.rhyme}</h1>
         <br/>
       </div>
